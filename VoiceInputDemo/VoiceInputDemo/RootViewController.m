@@ -51,13 +51,17 @@
 }
 - (void)finishEditing
 {
+    _inputView.isEdiding = NO;
     [UIView animateWithDuration:0.5 animations:^{
         _inputView.frame = CGRectMake(0, [UIScreen mainScreen].bounds.size.height - 200, [UIScreen mainScreen].bounds.size.width, 200);
     }];
     self.navigationItem.title = @"语音输入";
     self.navigationItem.leftBarButtonItem.title = @"微信";
     self.navigationItem.rightBarButtonItem.title = @"查看";
-    _inputView.isEdiding = NO;
+    if(_inputView.textView.text.length == 0)
+    {
+        _inputView.textView.editable = NO;
+    }
     [_inputView.textView resignFirstResponder];
     _inputView.contenView.hidden = NO;
 }

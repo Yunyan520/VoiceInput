@@ -84,7 +84,10 @@
     // 停止声音处理器，停止语音识别请求进程
     [self.audioEngine stop];
     [self.speechRequest endAudio];
-    _sendBtn.hidden = NO;
+    if(_textView.text.length != 0)
+    {
+        _sendBtn.hidden = NO;
+    }
 }
 - (void)configUI
 {
@@ -112,7 +115,7 @@
     [_contenView addSubview:cancleBtn];
     
     UIButton *recordBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    recordBtn.frame = CGRectMake(152, 25, 60, 60);
+    recordBtn.frame = CGRectMake(153, 25, 60, 60);
     [recordBtn setBackgroundColor:[UIColor redColor]];
     [recordBtn addTarget:self action:@selector(recordStart:) forControlEvents:UIControlEventTouchDown];
     [recordBtn addTarget:self action:@selector(recordFinish:) forControlEvents:UIControlEventTouchUpInside];
@@ -155,6 +158,10 @@
     _isEdiding = YES;
     [self setSelfRootNavigation];
     return true;
+}
+- (void)textViewDidChange:(UITextView *)textView
+{
+    _sendBtn.hidden = textView.text.length?NO:YES;
 }
 - (void)setSelfRootNavigation
 {
