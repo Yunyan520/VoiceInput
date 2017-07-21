@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61244C241F20AF54006CC1A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61244C231F20AF54006CC1A7 /* main.m */; };
+		61244C271F20AF54006CC1A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61244C261F20AF54006CC1A7 /* AppDelegate.m */; };
+		61244C2D1F20AF54006CC1A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61244C2B1F20AF54006CC1A7 /* Main.storyboard */; };
+		61244C2F1F20AF54006CC1A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61244C2E1F20AF54006CC1A7 /* Assets.xcassets */; };
+		61244C321F20AF54006CC1A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61244C301F20AF54006CC1A7 /* LaunchScreen.storyboard */; };
+		61244C3D1F20AF54006CC1A7 /* VoiceInputDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61244C3C1F20AF54006CC1A7 /* VoiceInputDemoTests.m */; };
+		61244C481F20AF54006CC1A7 /* VoiceInputDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61244C471F20AF54006CC1A7 /* VoiceInputDemoUITests.m */; };
+		61244C571F20AFB7006CC1A7 /* InputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61244C561F20AFB7006CC1A7 /* InputView.m */; };
+		612894301F21ABFE005419F6 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6128942F1F21ABFE005419F6 /* RootViewController.m */; };
+		612894331F21DDC6005419F6 /* BankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 612894321F21DDC6005419F6 /* BankViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61244C391F20AF54006CC1A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61244C171F20AF54006CC1A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61244C1E1F20AF54006CC1A7;
+			remoteInfo = VoiceInputDemo;
+		};
+		61244C441F20AF54006CC1A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61244C171F20AF54006CC1A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61244C1E1F20AF54006CC1A7;
+			remoteInfo = VoiceInputDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61244C1F1F20AF54006CC1A7 /* VoiceInputDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceInputDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61244C231F20AF54006CC1A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61244C251F20AF54006CC1A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61244C261F20AF54006CC1A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61244C2C1F20AF54006CC1A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61244C2E1F20AF54006CC1A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61244C311F20AF54006CC1A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61244C331F20AF54006CC1A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61244C381F20AF54006CC1A7 /* VoiceInputDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceInputDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61244C3C1F20AF54006CC1A7 /* VoiceInputDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceInputDemoTests.m; sourceTree = "<group>"; };
+		61244C3E1F20AF54006CC1A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61244C431F20AF54006CC1A7 /* VoiceInputDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceInputDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61244C471F20AF54006CC1A7 /* VoiceInputDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceInputDemoUITests.m; sourceTree = "<group>"; };
+		61244C491F20AF54006CC1A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61244C551F20AFB7006CC1A7 /* InputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputView.h; sourceTree = "<group>"; };
+		61244C561F20AFB7006CC1A7 /* InputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputView.m; sourceTree = "<group>"; };
+		6128942E1F21ABFE005419F6 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		6128942F1F21ABFE005419F6 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		612894311F21DDC6005419F6 /* BankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankViewController.h; sourceTree = "<group>"; };
+		612894321F21DDC6005419F6 /* BankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61244C1C1F20AF54006CC1A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61244C351F20AF54006CC1A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61244C401F20AF54006CC1A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61244C161F20AF54006CC1A7 = {
+			isa = PBXGroup;
+			children = (
+				61244C211F20AF54006CC1A7 /* VoiceInputDemo */,
+				61244C3B1F20AF54006CC1A7 /* VoiceInputDemoTests */,
+				61244C461F20AF54006CC1A7 /* VoiceInputDemoUITests */,
+				61244C201F20AF54006CC1A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61244C201F20AF54006CC1A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61244C1F1F20AF54006CC1A7 /* VoiceInputDemo.app */,
+				61244C381F20AF54006CC1A7 /* VoiceInputDemoTests.xctest */,
+				61244C431F20AF54006CC1A7 /* VoiceInputDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61244C211F20AF54006CC1A7 /* VoiceInputDemo */ = {
+			isa = PBXGroup;
+			children = (
+				61244C251F20AF54006CC1A7 /* AppDelegate.h */,
+				61244C261F20AF54006CC1A7 /* AppDelegate.m */,
+				6128942E1F21ABFE005419F6 /* RootViewController.h */,
+				6128942F1F21ABFE005419F6 /* RootViewController.m */,
+				612894311F21DDC6005419F6 /* BankViewController.h */,
+				612894321F21DDC6005419F6 /* BankViewController.m */,
+				61244C551F20AFB7006CC1A7 /* InputView.h */,
+				61244C561F20AFB7006CC1A7 /* InputView.m */,
+				61244C2B1F20AF54006CC1A7 /* Main.storyboard */,
+				61244C2E1F20AF54006CC1A7 /* Assets.xcassets */,
+				61244C301F20AF54006CC1A7 /* LaunchScreen.storyboard */,
+				61244C331F20AF54006CC1A7 /* Info.plist */,
+				61244C221F20AF54006CC1A7 /* Supporting Files */,
+			);
+			path = VoiceInputDemo;
+			sourceTree = "<group>";
+		};
+		61244C221F20AF54006CC1A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61244C231F20AF54006CC1A7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61244C3B1F20AF54006CC1A7 /* VoiceInputDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				61244C3C1F20AF54006CC1A7 /* VoiceInputDemoTests.m */,
+				61244C3E1F20AF54006CC1A7 /* Info.plist */,
+			);
+			path = VoiceInputDemoTests;
+			sourceTree = "<group>";
+		};
+		61244C461F20AF54006CC1A7 /* VoiceInputDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61244C471F20AF54006CC1A7 /* VoiceInputDemoUITests.m */,
+				61244C491F20AF54006CC1A7 /* Info.plist */,
+			);
+			path = VoiceInputDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61244C1E1F20AF54006CC1A7 /* VoiceInputDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61244C4C1F20AF54006CC1A7 /* Build configuration list for PBXNativeTarget "VoiceInputDemo" */;
+			buildPhases = (
+				61244C1B1F20AF54006CC1A7 /* Sources */,
+				61244C1C1F20AF54006CC1A7 /* Frameworks */,
+				61244C1D1F20AF54006CC1A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceInputDemo;
+			productName = VoiceInputDemo;
+			productReference = 61244C1F1F20AF54006CC1A7 /* VoiceInputDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61244C371F20AF54006CC1A7 /* VoiceInputDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61244C4F1F20AF54006CC1A7 /* Build configuration list for PBXNativeTarget "VoiceInputDemoTests" */;
+			buildPhases = (
+				61244C341F20AF54006CC1A7 /* Sources */,
+				61244C351F20AF54006CC1A7 /* Frameworks */,
+				61244C361F20AF54006CC1A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61244C3A1F20AF54006CC1A7 /* PBXTargetDependency */,
+			);
+			name = VoiceInputDemoTests;
+			productName = VoiceInputDemoTests;
+			productReference = 61244C381F20AF54006CC1A7 /* VoiceInputDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61244C421F20AF54006CC1A7 /* VoiceInputDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61244C521F20AF54006CC1A7 /* Build configuration list for PBXNativeTarget "VoiceInputDemoUITests" */;
+			buildPhases = (
+				61244C3F1F20AF54006CC1A7 /* Sources */,
+				61244C401F20AF54006CC1A7 /* Frameworks */,
+				61244C411F20AF54006CC1A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61244C451F20AF54006CC1A7 /* PBXTargetDependency */,
+			);
+			name = VoiceInputDemoUITests;
+			productName = VoiceInputDemoUITests;
+			productReference = 61244C431F20AF54006CC1A7 /* VoiceInputDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61244C171F20AF54006CC1A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lidianchao;
+				TargetAttributes = {
+					61244C1E1F20AF54006CC1A7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = QP99DRZ3CS;
+						ProvisioningStyle = Automatic;
+					};
+					61244C371F20AF54006CC1A7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61244C1E1F20AF54006CC1A7;
+					};
+					61244C421F20AF54006CC1A7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61244C1E1F20AF54006CC1A7;
+					};
+				};
+			};
+			buildConfigurationList = 61244C1A1F20AF54006CC1A7 /* Build configuration list for PBXProject "VoiceInputDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61244C161F20AF54006CC1A7;
+			productRefGroup = 61244C201F20AF54006CC1A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61244C1E1F20AF54006CC1A7 /* VoiceInputDemo */,
+				61244C371F20AF54006CC1A7 /* VoiceInputDemoTests */,
+				61244C421F20AF54006CC1A7 /* VoiceInputDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61244C1D1F20AF54006CC1A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61244C321F20AF54006CC1A7 /* LaunchScreen.storyboard in Resources */,
+				61244C2F1F20AF54006CC1A7 /* Assets.xcassets in Resources */,
+				61244C2D1F20AF54006CC1A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61244C361F20AF54006CC1A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61244C411F20AF54006CC1A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61244C1B1F20AF54006CC1A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61244C571F20AFB7006CC1A7 /* InputView.m in Sources */,
+				61244C271F20AF54006CC1A7 /* AppDelegate.m in Sources */,
+				61244C241F20AF54006CC1A7 /* main.m in Sources */,
+				612894301F21ABFE005419F6 /* RootViewController.m in Sources */,
+				612894331F21DDC6005419F6 /* BankViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61244C341F20AF54006CC1A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61244C3D1F20AF54006CC1A7 /* VoiceInputDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61244C3F1F20AF54006CC1A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61244C481F20AF54006CC1A7 /* VoiceInputDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61244C3A1F20AF54006CC1A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61244C1E1F20AF54006CC1A7 /* VoiceInputDemo */;
+			targetProxy = 61244C391F20AF54006CC1A7 /* PBXContainerItemProxy */;
+		};
+		61244C451F20AF54006CC1A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61244C1E1F20AF54006CC1A7 /* VoiceInputDemo */;
+			targetProxy = 61244C441F20AF54006CC1A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61244C2B1F20AF54006CC1A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61244C2C1F20AF54006CC1A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61244C301F20AF54006CC1A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61244C311F20AF54006CC1A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61244C4A1F20AF54006CC1A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61244C4B1F20AF54006CC1A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61244C4D1F20AF54006CC1A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QP99DRZ3CS;
+				INFOPLIST_FILE = VoiceInputDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.VoiceInputDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		61244C4E1F20AF54006CC1A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QP99DRZ3CS;
+				INFOPLIST_FILE = VoiceInputDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.VoiceInputDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		61244C501F20AF54006CC1A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VoiceInputDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.VoiceInputDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceInputDemo.app/VoiceInputDemo";
+			};
+			name = Debug;
+		};
+		61244C511F20AF54006CC1A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VoiceInputDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.VoiceInputDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceInputDemo.app/VoiceInputDemo";
+			};
+			name = Release;
+		};
+		61244C531F20AF54006CC1A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VoiceInputDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.VoiceInputDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VoiceInputDemo;
+			};
+			name = Debug;
+		};
+		61244C541F20AF54006CC1A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VoiceInputDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.VoiceInputDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VoiceInputDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61244C1A1F20AF54006CC1A7 /* Build configuration list for PBXProject "VoiceInputDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61244C4A1F20AF54006CC1A7 /* Debug */,
+				61244C4B1F20AF54006CC1A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61244C4C1F20AF54006CC1A7 /* Build configuration list for PBXNativeTarget "VoiceInputDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61244C4D1F20AF54006CC1A7 /* Debug */,
+				61244C4E1F20AF54006CC1A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61244C4F1F20AF54006CC1A7 /* Build configuration list for PBXNativeTarget "VoiceInputDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61244C501F20AF54006CC1A7 /* Debug */,
+				61244C511F20AF54006CC1A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61244C521F20AF54006CC1A7 /* Build configuration list for PBXNativeTarget "VoiceInputDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61244C531F20AF54006CC1A7 /* Debug */,
+				61244C541F20AF54006CC1A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61244C171F20AF54006CC1A7 /* Project object */;
+}
