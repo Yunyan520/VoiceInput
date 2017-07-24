@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "MyFrame.h"
 typedef void(^InputViewCancleInputCallback)(void);
 
 

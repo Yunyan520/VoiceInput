@@ -18,10 +18,8 @@
 
 @implementation InputView
 {
-//    UITextView *_textView;
     UIButton *_sendBtn;
     UIViewController *_selfController;
-//    UIView *_contenView;
     CGRect _frame;
 }
 - (instancetype)initWithFrame:(CGRect)frame controller:(UIViewController *)controller
@@ -91,38 +89,45 @@
 }
 - (void)configUI
 {
-    _textView = [[UITextView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 80)];
+    CGRect tectViewRect =CGRectMake(0, 0, IPHONE5sWIDTH, 80);
+    _textView = [[UITextView alloc] initWithFrame:[MyFrame myRectWithX:tectViewRect]];
     _textView.delegate = self;
     _textView.editable = NO;
     _textView.font = [UIFont systemFontOfSize:18];
     [self addSubview:_textView];
     
-    _contenView = [[UIView alloc] initWithFrame:CGRectMake(0, 90, [UIScreen mainScreen].bounds.size.width, 110)];
+    CGRect contentRect = CGRectMake(0, 90, IPHONE5sWIDTH, 110);
+    _contenView = [[UIView alloc] initWithFrame:[MyFrame myRectWithX:contentRect]];
     [self addSubview:_contenView];
     [self configContentView];
 }
 - (void)configContentView
 {
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(150, 0, 120, 20)];
+    CGRect labelRect = CGRectMake(120, 0, 80, 20);
+    UILabel *label = [[UILabel alloc] initWithFrame:[MyFrame myRectWithX:labelRect]];
+    label.textAlignment = NSTextAlignmentCenter;
     label.text = @"按住说话";
     [_contenView addSubview:label];
     
-    UIButton *cancleBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    cancleBtn.frame = CGRectMake(30, 30, 50, 40);
-    [cancleBtn setTitle:@"取消" forState:UIControlStateNormal];
-    [cancleBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [cancleBtn addTarget:self action:@selector(cancle:) forControlEvents:UIControlEventTouchUpInside];
-    [_contenView addSubview:cancleBtn];
-    
     UIButton *recordBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    recordBtn.frame = CGRectMake(153, 25, 60, 60);
+    CGRect recordBtnRect = CGRectMake(130, 25, 60, 60);
+    recordBtn.frame = [MyFrame myRectWithX:recordBtnRect];
     [recordBtn setBackgroundColor:[UIColor redColor]];
     [recordBtn addTarget:self action:@selector(recordStart:) forControlEvents:UIControlEventTouchDown];
     [recordBtn addTarget:self action:@selector(recordFinish:) forControlEvents:UIControlEventTouchUpInside];
     [_contenView addSubview:recordBtn];
     
+    UIButton *cancleBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    CGRect cancleBtnRect = CGRectMake(20, 30, 50, 40);
+    cancleBtn.frame = [MyFrame myRectWithX:cancleBtnRect];
+    [cancleBtn setTitle:@"取消" forState:UIControlStateNormal];
+    [cancleBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [cancleBtn addTarget:self action:@selector(cancle:) forControlEvents:UIControlEventTouchUpInside];
+    [_contenView addSubview:cancleBtn];
+    
     _sendBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    _sendBtn.frame = CGRectMake(270, 30, 50, 50);
+    CGRect sendBtnRect = CGRectMake(250, 30, 50, 40);
+    _sendBtn.frame = [MyFrame myRectWithX:sendBtnRect];
     [_sendBtn setTitle:@"发送" forState:UIControlStateNormal];
     [_sendBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [_sendBtn addTarget:self action:@selector(sendVoiceMessage:) forControlEvents:UIControlEventTouchUpInside];
@@ -151,8 +156,11 @@
 #pragma -mark UITextFieldDelegate
 - (BOOL)textViewShouldBeginEditing:(UITextView *)textView
 {
+    CGFloat myY=[UIScreen mainScreen].bounds.size.height/IPHONE5sHEIGHT;
+    CGFloat segMentY = 64/myY;
+    CGRect viewRect = CGRectMake(0, segMentY, IPHONE5sWIDTH, IPHONE5sHEIGHT);
     [UIView animateWithDuration:0.5 animations:^{
-        self.frame = CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
+        self.frame = [MyFrame myRectWithX:viewRect];
     }];
     _contenView.hidden = YES;
     _isEdiding = YES;

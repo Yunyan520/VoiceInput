@@ -17,6 +17,7 @@
 		61244C571F20AFB7006CC1A7 /* InputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61244C561F20AFB7006CC1A7 /* InputView.m */; };
 		612894301F21ABFE005419F6 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6128942F1F21ABFE005419F6 /* RootViewController.m */; };
 		612894331F21DDC6005419F6 /* BankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 612894321F21DDC6005419F6 /* BankViewController.m */; };
+		61A093EF1F258814007DCFD9 /* MyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A093ED1F258814007DCFD9 /* MyFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,9 @@
 		6128942F1F21ABFE005419F6 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		612894311F21DDC6005419F6 /* BankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankViewController.h; sourceTree = "<group>"; };
 		612894321F21DDC6005419F6 /* BankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankViewController.m; sourceTree = "<group>"; };
+		61A093EC1F258814007DCFD9 /* MyFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFrame.h; sourceTree = "<group>"; };
+		61A093ED1F258814007DCFD9 /* MyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFrame.m; sourceTree = "<group>"; };
+		61A093EE1F258814007DCFD9 /* Screen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Screen.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,9 @@
 				612894321F21DDC6005419F6 /* BankViewController.m */,
 				61244C551F20AFB7006CC1A7 /* InputView.h */,
 				61244C561F20AFB7006CC1A7 /* InputView.m */,
+				61A093EC1F258814007DCFD9 /* MyFrame.h */,
+				61A093ED1F258814007DCFD9 /* MyFrame.m */,
+				61A093EE1F258814007DCFD9 /* Screen.h */,
 				61244C2B1F20AF54006CC1A7 /* Main.storyboard */,
 				61244C2E1F20AF54006CC1A7 /* Assets.xcassets */,
 				61244C301F20AF54006CC1A7 /* LaunchScreen.storyboard */,
@@ -287,6 +294,7 @@
 				61244C571F20AFB7006CC1A7 /* InputView.m in Sources */,
 				61244C271F20AF54006CC1A7 /* AppDelegate.m in Sources */,
 				61244C241F20AF54006CC1A7 /* main.m in Sources */,
+				61A093EF1F258814007DCFD9 /* MyFrame.m in Sources */,
 				612894301F21ABFE005419F6 /* RootViewController.m in Sources */,
 				612894331F21DDC6005419F6 /* BankViewController.m in Sources */,
 			);
