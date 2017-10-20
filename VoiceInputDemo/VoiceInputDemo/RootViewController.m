@@ -25,6 +25,7 @@
     [self initData];
     [self initNavigation];
     [self configUI];
+
     // Do any additional setup after loading the view, typically from a nib.
 }
 - (void)initData
